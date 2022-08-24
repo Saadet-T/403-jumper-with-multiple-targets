@@ -2,6 +2,10 @@
 It works same as the 403Jumper but this one can take multiple target URL's via targets.txt.
 
 Usage ;
+First you should add your TARGET URL's in targets.txt file
+![image](https://user-images.githubusercontent.com/68515706/186477428-fb9ba44c-d8a1-4e06-9d0e-5f4757651283.png)
+
+Then you can use the command  ;
 
 python 403Jumper2.py
 
