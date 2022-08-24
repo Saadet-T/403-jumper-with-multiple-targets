@@ -12,7 +12,7 @@ for target in targetsx:
        		headers = {''+header :'127.0.0.1'}
 		req = requests.get(target, headers=headers)#request happens here 
 		if req.status_code == 200:
-   		 	print('This Payload is succesfull for'+target +'=> '+header+':127.0.0.1' )
+   		 	print('This Payload is succesfull for '+target +'=> '+header+':127.0.0.1' )
 			failedbypass=failedbypass+1;#adds 1 to failedbypass value if any header is successfull   		
 	if(failedbypass==0):
 		print('None of them succeeded for ' +target)
